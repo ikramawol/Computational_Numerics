@@ -27,5 +27,5 @@
 <ol>
    <li>Hiriya Girma ID: ETS0810/14</li>
    <li>Ikram Awol ID: ETS0823/14</li>
-   <li>Mekdes Lemesa ID: ETS1025/14</li>
+   <li>Mekdes Lemesa ID: ETS1022/14</li>
 </ol>
