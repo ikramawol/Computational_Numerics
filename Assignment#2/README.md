@@ -29,6 +29,8 @@ The trapezoidal rule is a numerical integration method used to estimate the defi
 
 Simpson's rule is another numerical integration method that provides a more accurate estimate of the definite integral compared to the trapezoidal rule. It uses quadratic or cubic approximations for the function within each subinterval. The 1/3 and 3/8 refer to two variations of Simpson's rule, depending on the number of intervals used. These methods offer improved accuracy for a wide range of functions.
 
+<i>GitHub Link: https://github.com/ikramawol/Computational_Numerics/tree/main/Assignment%232</i>
+
 <h2>AUTHORS</h2>
  <ol>
    <li>Hiriya Girma ID: ETS0810/14</li>
