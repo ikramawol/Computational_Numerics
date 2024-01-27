@@ -19,3 +19,13 @@ def polynomial_regression(x, y, order):
     coefficients[order][0] = 2 * sum_val
 
     return coefficients
+
+x_values = [1, 2, 3, 4, 5]
+y_values = [2, 4, 5, 4, 5]
+order = 2
+
+coefficients = polynomial_regression(x_values, y_values, order)
+
+print("Polynomial Regression Coefficients:")
+for row in coefficients:
+    print(row)

@@ -1,4 +1,4 @@
-# # Python Implementation for simpsons three eighth integration (3/8)
+# Python Implementation for simpsons three eighth integration (3/8)
 def simpsons_three_eighth_integration(func, a, b, n):
     
     h = (b - a) / n  

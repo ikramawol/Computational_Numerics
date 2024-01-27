@@ -24,3 +24,15 @@ def linear_regression(x, y, n):
     r2 = (st - sr) / st
 
     return a0, a1, syx, r2
+
+# Example usage:
+x_values = [1, 2, 3, 4, 5]
+y_values = [2, 4, 5, 4, 5]
+n = len(x_values)
+
+a0, a1, syx, r2 = linear_regression(x_values, y_values, n)
+
+print("Intercept (a0):", a0)
+print("Slope (a1):", a1)
+print("Standard Error of Estimate (syx):", syx)
+print("Coefficient of Determination (r2):", r2)

@@ -7,3 +7,4 @@ def lagrange_interpolation(x, x_values, y_values):
                 term = term * (x - x_values[j]) / (x_values[i] - x_values[j])
         result += term
     return result
+
