@@ -2,13 +2,13 @@
 
 # Estimate the natural logarithm of 2 using linear interpolation. First, perform the computation by interpolating between ln 1 = 0 and ln 6 = 1.791759. Then,
 # repeat the procedure, but use a smaller interval from ln 1 to ln 4 (1.386294). Note that the
-# true value of ln 2 is 0.6931472.#
+# true value of ln 2 is 0.6931472
 
-# Fit a second-order polynomial to the three points used in Exam ple 18.1:
+# Use a Lagrange interpolating polynomial of the first and second
+# order to evaluate ln 2 on the basis of the data given in Example 18.2:
 # x0 = 1 f(x0) = 0
 # x1 = 4 f(x1) = 1.386294
-# x2 = 6 f(x2) = 1.791759
-# Use the polynomial to evaluate ln 2.
+# x2 = 6 f(x2) = 1.791760
 
 def lagrange_interpolation(x, y, n, xx):
     lagrange_sum = 0
